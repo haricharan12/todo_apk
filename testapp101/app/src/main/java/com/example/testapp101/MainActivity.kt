@@ -154,7 +154,7 @@ fun NetworkSection() {
     val client = remember { OkHttpClient() }
 
     Column(Modifier.padding(top = 16.dp)) {
-        Text("Network demo")
+        Text("Network")
         Button(
             onClick = {
                 scope.launch(Dispatchers.IO) {
@@ -224,7 +224,7 @@ fun ContactsSection() {
     }
 
     Column(Modifier.padding(top = 16.dp)) {
-        Text("Contacts demo")
+        Text("Contacts")
 
         Button(
             onClick = {
